@@ -1,1 +1,5 @@
-console.log('testing1');
+function captilize(text) {
+    return console.log(text.toUpperCase());
+}
+
+captilize('hello');
