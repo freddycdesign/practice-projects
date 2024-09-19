@@ -18,3 +18,24 @@ function length(text) {
 }
 length('hello sadffsd asdf');
 
+
+let length2 = string => {
+    console.log(string.length);
+}
+length2('1234567')
+
+
+function checkNumber(num) {
+    if (num > 0) {
+        console.log(num + ' is positive.')
+    }
+    else if (num < 0) {
+        console.log(num + ' is negative.')
+    }
+    else {
+        console.log(num + ' is zero.')
+    }
+};
+checkNumber(5);
+checkNumber(-3);
+checkNumber(0);
