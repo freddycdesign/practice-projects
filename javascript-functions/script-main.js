@@ -12,6 +12,12 @@ let captilize = text => {
 }
 captilize('hello');
 
+function captilize2(text) {
+    let upperCasedText = text.toUpperCase();
+    console.log(upperCasedText);
+}
+captilize2('helloooo');
+
 
 function length(text) {
     return console.log(text.length);
@@ -39,3 +45,20 @@ function checkNumber(num) {
 checkNumber(5);
 checkNumber(-3);
 checkNumber(0);
+
+
+function sum() {
+    let total = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        total += arguments[i];
+    }
+    return total;
+}
+console.log(sum(1, 1, 1)); // 6
+
+
+let name = 'bob';
+const log = () => {
+    console.log(`hello it's me, my "name" is ${name}.`)
+}
+log();
